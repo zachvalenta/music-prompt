@@ -5,6 +5,8 @@ help:
 	@echo "======================================================================"
 	@echo
 	@echo "test:      output sample data"
+	@echo "chords:    output chords"
+	@echo "melody:    output melody"
 	@echo
 	@echo "======================================================================"
 	@echo
@@ -12,3 +14,8 @@ help:
 test:
 	poetry run python test.py
 
+chords:
+	poetry run python chords.py
+
+melody:
+	poetry run python melody.py
